@@ -1,0 +1,9 @@
+width, height = 1200, 750
+button_width = 150
+button_height = 70
+button_spacing = 30
+my_car_height = 120
+my_car_width = 65
+my_car_image_x = (width - my_car_width) // 2  # Center horizontally
+my_car_image_y = height - my_car_height  # Bottom of the window
+position = (0, 0)
