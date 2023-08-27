@@ -1,6 +1,6 @@
 import pygame
 
-from constants.sizes import width, height
+from constants.sizes import SCREEN_HEIGHT, SCREEN_WIDTH
 from constants.texts import YOUR_SCORE_IS_TEXT
 
 
@@ -8,7 +8,7 @@ from constants.texts import YOUR_SCORE_IS_TEXT
 
 
 def your_score_is(screen, score):
-    font = pygame.font.Font(None, 35)
+    font = pygame.font.Font(None, 37)
     text = font.render(YOUR_SCORE_IS_TEXT + str(score), True, (255, 255, 255))
-    screen.blit(text, (width // 2 - 150, height // 2 + 400))
+    screen.blit(text, (SCREEN_WIDTH // 2 - 100, SCREEN_HEIGHT // 2 - 40))
 

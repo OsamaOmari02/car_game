@@ -1,2 +1,4 @@
-MAIN_MENU_SCREEN = "Home"
+MAIN_MENU_SCREEN = "Main Menu"
 GAME_SCREEN = "Game"
+INSANE_MODE_SCREEN = "Insane"
+
