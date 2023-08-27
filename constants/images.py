@@ -10,4 +10,10 @@ game_screen_background_image = pygame.image.load("/Users/my/PycharmProjects/spee
 game_screen_background_image = pygame.transform.scale(game_screen_background_image, (width, height))
 
 my_car_image = pygame.image.load("/Users/my/PycharmProjects/speed4speed/assets/images/my_car.png")
-my_car_image = pygame.transform.scale(my_car_image, (my_car_width, my_car_height))
+my_car_image = pygame.transform.scale(my_car_image, (MY_CAR_WIDTH, MY_CAR_HEIGHT))
+
+ENEMY_CAR_IMAGE = pygame.image.load("/Users/my/PycharmProjects/speed4speed/assets/images/enemy_car.png")
+ENEMY_CAR_IMAGE = pygame.transform.scale(ENEMY_CAR_IMAGE, (ENEMY_CAR_WIDTH, ENEMY_CAR_HEIGHT))
+
+LIFE_HEART_IMAGE = pygame.image.load("/Users/my/PycharmProjects/speed4speed/assets/images/life_heart.png")
+LIFE_HEART_IMAGE = pygame.transform.scale(LIFE_HEART_IMAGE, (LIFE_HEART_WIDTH, LIFE_HEART_HEIGHT))

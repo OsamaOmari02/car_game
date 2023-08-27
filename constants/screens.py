@@ -1,2 +1,2 @@
-HOME_SCREEN = "Home"
+MAIN_MENU_SCREEN = "Home"
 GAME_SCREEN = "Game"
